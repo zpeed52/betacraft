@@ -1,0 +1,115 @@
+#footer {
+    width: 100%;
+    float: left;
+
+    box-shadow: 0px 500px 0px 500px #0e0e0e;
+}
+
+#footer .summary {
+    height: 110px;
+    background: #1d1d1d;
+}
+
+#footer .summary .copyright {
+    float: left;
+}
+
+#footer .summary .copyright a {
+    background: url("../../../betacraft.org/resim/files/j8W3X9.png") no-repeat;
+    width: 94px;
+    height: 67px;
+    margin: 23px 0 0 0;
+    float: left;
+
+    text-indent: -10000px;
+}
+
+#footer .summary .copyright p {
+    margin: 35px 0 0 15px;
+    color: #cbcbcb;
+    float: left;
+}
+
+#footer .summary .copyright em {
+    font-style: normal;
+    color: #777777;
+    font-size: 14px;
+}
+
+#footer .summary .language-selector {
+    position: relative;
+    margin: 32px 0 0 0;
+    float: right;
+}
+
+#footer .summary .language-selector a.hive-btn {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px 0 15px;
+    background: #812155;
+    color: #ff7ac2;
+}
+
+#footer .summary .language-selector a.hive-btn i {
+    color: #FFF;
+    margin: 0 5px 0 0;
+}
+
+#footer .summary .language-selector ul {
+    width: 160px;
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.85);
+    list-style: none;
+    padding: 5px 10px 10px 10px;
+
+    display: none;
+}
+
+#footer .summary .language-selector:hover ul {
+    display: block;
+}
+
+#footer .summary .language-selector ul li {
+    text-align: right;
+    margin: 5px 0 0 0;
+}
+
+#footer .summary .language-selector ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#footer .summary .language-selector ul li a:hover {
+    color: #ffa2de;
+}
+
+#footer .links {
+    height: 95px;
+    background: #0e0e0e;
+}
+
+#footer .links ul {
+    width: 100%;
+    padding: 0;
+    margin: 35px 0 0 0;
+
+    list-style: none;
+    text-align: center;
+}
+
+#footer .links ul li {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+#footer .links ul li a {
+    font-weight: bold;
+    color: #ff9c00;
+}
+
+#footer .links ul li a:hover {
+    color: #fffb83;
+}

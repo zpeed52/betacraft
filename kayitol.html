@@ -1,0 +1,188 @@
+
+          
+
+<html>
+
+<!-- Mirrored from www.betacraft.org/kayitol by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Mar 2020 15:40:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta name="description" content="Türkiye'nin en kaliteli minecraft sunucusu! - Betacraft NetWork"/>
+	<meta name="keywords" content="betacraft, minecraft, türk, sunucu, kalite"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Betacraft | Kalite Fark Yaratır...</title>
+	<link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/css/bootflat.min.css" rel="stylesheet">
+    <link href="lib/css/font-awesome.min.css" rel="stylesheet">
+		<link href="lib/css/style.css" rel="stylesheet">
+    <link href="lib/css/mmenu.css" rel="stylesheet">
+	<link rel='stylesheet' id='google-font-pack-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Archivo+Narrow:400,700,400italic|Oswald:400italic,700italic,400,700&amp;subset=latin' type='text/css' media='all' />
+	<link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton:300,400,600" rel="stylesheet">
+	<link href="lib/fonts/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Trueno:300,400,600" rel="stylesheet">
+	<link href="lib/fonts/style.css" rel="stylesheet">
+	<link href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+	
+	
+	
+	
+	
+	
+
+</head>
+<body>
+<div class="bg-image"></div>
+
+
+
+<div class="bg-text">
+<div>
+	
+	<link href="https://fonts.googleapis.com/css?family=Jockey+One&amp;subset=latin-ext" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Raleway:300&amp;subset=latin-ext" rel="stylesheet">
+						<font style="font-size:35px;font-family: 'Jockey One', sans-serif;" color="white">
+						
+					
+						
+					<div style="padding: 75px;">	
+								<center color="white" style="margin-bottom: 20px;">
+								
+									KAYIT OLMA EKRANI
+								</center>
+							</font>
+							<font font-family: 'Raleway', sans-serif;" color="white">
+	<form action="#" method="post">
+		<div class="form-group">
+			<input style="border-radius: 100px;" minlength="3" maxlength="16" type="text" name="kadi" class="form-control" placeholder="Kullanıcı Adı/Username" value="">
+		</div>
+		<div class="form-group" id="sifre_group"><div style="float:right;" id="guclu_mu"></div>
+			<input style="border-radius: 100px;" id="sifre" type="password" name="sifre" class="form-control" placeholder="Şifre/Password">
+		</div>
+		<div class="progress" id="sifre_guc" style="display: none;">
+		  <div class="progress-bar" id="sifre_guc_bar" style="width: 1%"></div>
+		</div>
+		<div class="form-group" id="sifre2_group"><div style="float:right;" id="ayni_mi"></div>
+			<input style="border-radius: 100px;" id="sifre2" type="password" name="sifre2" class="form-control" placeholder="Tekrar Şifre/Verify Password">
+		</div>
+		<div class="form-group">
+			<input style="border-radius: 100px;" type="email" name="email" class="form-control" placeholder="E-Posta/E-Mail" value="">
+		</div>
+		</font>
+		<div class="form-group" style="margin-top:-10px">
+			<label class="btn btn-block ripple" style="background: transparent;color: white;border-color: transparent;text-align: center;">
+				<input type="checkbox" name="sozl">
+				<a href="http://betacraft.org/kullanicisozlesmesi" target="_blank" color="red"><u>[Kullanıcı Sözleşmesi]</u></a> okudum ve kabul ediyorum.
+			</label>
+		</div>
+		
+		<center>
+		
+			<button name="kayitol" value="kayitol" type="submit" style="margin-top:-10px;background-color:#04b700;color:#ffffff;border-radius:100px;font-size:20px;font-family: 'Raleway', sans-serif;" data-ripple-color="#ffb24e" class="btn btn-block ripple">KAYIT OL</button>
+		</center>
+
+		
+		
+				<input type="hidden" name="x_token" value="856807wIRV,zVB8XQp85k,X4sgI16tfH,51.103.16.38">
+	</form>
+	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+	<script>
+	jQuery(document).ready(function($) {
+		$('#sifre').keyup(function(e) {
+			var guclukarakter = 8;
+			var ortakarakter = 7;
+			var gecerkarakter = 1;
+			var strongRegex = new RegExp("^(?=.{"+guclukarakter+",})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
+			var mediumRegex = new RegExp("^(?=.{"+ortakarakter+",})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
+			var enoughRegex = new RegExp("(?=.{"+gecerkarakter+",}).*", "g");
+
+			if (false == enoughRegex.test($(this).val())) {
+				$("#sifre_guc").hide();
+				$('#guclu_mu').html('En az '+gecerkarakter+' karakter giriniz!');
+				$("#sifre_group").addClass("has-error");
+				$("#sifre_group").removeClass("has-success");
+			} else if (strongRegex.test($(this).val())) {
+				$("#sifre_guc").show();
+				$("#sifre_guc_bar").removeClass();
+				$("#sifre_guc_bar").addClass("progress-bar progress-bar-success");
+				$("#sifre_guc_bar").css("width","100%");
+				$('#guclu_mu').html('<b style="color:green">Güçlü!</b>');
+				$("#sifre_group").removeClass("has-error");
+				$("#sifre_group").addClass("has-success");
+			} else if (mediumRegex.test($(this).val())) {
+				$("#sifre_guc").show();
+				$("#sifre_guc_bar").removeClass();
+				$("#sifre_guc_bar").addClass("progress-bar progress-bar-warning");
+				$("#sifre_guc_bar").css("width","66%");
+				$('#guclu_mu').html('<b style="color:orange">Orta!</b>');
+				$("#sifre_group").removeClass("has-error");
+				$("#sifre_group").addClass("has-success");
+			} else {
+				$("#sifre_guc").show();
+				$("#sifre_guc_bar").removeClass();
+				$("#sifre_guc_bar").addClass("progress-bar progress-bar-danger");
+				$("#sifre_guc_bar").css("width","33%");
+				$('#guclu_mu').html('<b style="color:red">Güçsüz!</b>');
+				$("#sifre_group").removeClass("has-error");
+				$("#sifre_group").addClass("has-success");
+			}
+			return true;
+		});
+		$('#sifre2').keyup(function(e) {
+			if ($('#sifre').val()) {
+				if ($('#sifre').val() == $('#sifre2').val()) {
+					$("#ayni_mi").html("<b style='color:green'>Şifreler Uyuşuyor!</b>");
+					$("#sifre2_group").removeClass("has-error");
+					$("#sifre2_group").addClass("has-success");
+				}else{
+					$("#ayni_mi").html("<b style='color:red'>Şifreler Uyuşmuyor!</b>");
+					$("#sifre2_group").addClass("has-error");
+					$("#sifre2_group").removeClass("has-success");
+				}
+			}
+		});
+	});
+	</script>
+</div>
+	
+					<style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+}
+</style>
+<div style="margin-top:-40px" >
+							<a href="giris.html"><button class="btn btn-block ripple" style="border-radius:0px;margin-bottom:-20px;background-color:#038500;color:#ffffff;height:60px;font-size:20px;font-family: 'Raleway', sans-serif;" data-ripple-color="#ffb24e">ZATEN BİR HESABINIZ VAR MI?</button>
+							</div></a>
+<!-- Modal -->
+
+</div>
